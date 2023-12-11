@@ -22,12 +22,11 @@ The [[Release]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/release
 - Open .sln and restore NuGet packages (AsmResolver.DotNet, Lib.Harmony, etc.) → should be automatic if the NuGet URL is configured.<br/>
 - Build - Release both x86, x64.<br/>
 
-### Usage
+## Usage
 Use on unpacked samples (Dumped - Passing Module Constructor)<br/>
 ConfuserEx2_String_Decryptor.exe (32-bit) on 32-bit samples and (64-bit) on 64-bit samples<br/>
 **Drag&Drop** or **ConfuserEx2_String_Decryptor.exe \<filepath\>**<br/>
 
-### Example
 **BEFORE:**<br/>
 ![](Media/Before.png)<br/><br/>
 **AFTER:**<br/>
@@ -49,7 +48,7 @@ Most of these tools are based on well-known open-source libraries and use:
 The [[Release]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/releases) contains also all tools used in this guide "**ConfuserEx2_Deobfuscate_Tools.7z**" <br/>
 
 
-### GUIDE - Steps
+## GUIDE - Steps
 
 1. If the sample is packed (which means the IL code of the methods is not visible in tools like dnSpyEx), debug it and **dump it from memory** just after the **module constructor** execution is over, heading to the original entrypoint.
 2. **Preserve** as much metadata as possible during the saving of the module from memory.
@@ -63,10 +62,11 @@ The [[Release]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/release
 5. Use the string decryption tools (**ConfuserEx2_String_Decryptor**) → 32-bit version on 32-bit samples and 64-bit version on 64-bit samples.
 6. Use the **ProxyCall-Remover** to get rid of proxy methods (should help to inline them).
 
-### GUIDE - Video
+## GUIDE - Video
 [[YouTube]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/releases)
 
-### Something Not Working?
+## Something Not Working?
+
 1. Follow the video guide.
 2. Verify you **successfully unpacked** the protected sample - if it is packed (no IL code body or buggy decompilation in dnSpyEx) → debug the original sample/dll/loader to get over the module constructor of the protected sample → dump it from memory (dnSpyEx GUI).
 3. Make sure it is protected by ConfuserEx2 and not some super old version from the Confuser family or an absolutely different protector.
