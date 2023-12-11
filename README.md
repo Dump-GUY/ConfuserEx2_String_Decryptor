@@ -24,7 +24,7 @@ The [[Release]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/release
 
 ### Usage
 Use on unpacked samples (Dumped - Passing Module Constructor)<br/>
-ConfuserEx2_String_Decryptor32.exe (32-bit) on 32-bit samples and ConfuserEx2_String_Decryptor64.exe (64-bit) on 64-bit samples<br/>
+ConfuserEx2_String_Decryptor.exe (32-bit) on 32-bit samples and (64-bit) on 64-bit samples<br/>
 **Drag&Drop** or **ConfuserEx2_String_Decryptor.exe \<filepath\>**<br/>
 
 ### Example
