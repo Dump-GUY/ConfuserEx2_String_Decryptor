@@ -1,6 +1,6 @@
 # ConfuserEx2_String_Decryptor
 ConfuserEx2 is the latest version from the Confuser family → An open-source, free protector for .NET applications.<br/>
-ConfuserEx2_String_Decryptor is a tool that deobfuscates constants protection, targeting **string** objects and **char[]** arrays.<br/>
+ConfuserEx2_String_Decryptor deobfuscates constants protection, targeting **string** objects and **char[]** arrays.<br/>
 This tool was tested on the vanilla version of ConfuserEx2 (ConfuserEx 1.6.0+-), but it should also handle some customized versions.
 > [!WARNING]
 > **Run Only In VM** - The deobfuscation is based on a dynamic approach using managed hooking and reflection.<br/>
@@ -19,7 +19,7 @@ The [[Release]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/release
 
 ### Building on Windows
 - Install Visual Studio.<br/>
-- Open .sln and restore NuGet packages (AsmResolver.DotNet, Lib.Harmony, etc.) → should be automatic if you configured the NuGet URL.<br/>
+- Open .sln and restore NuGet packages (AsmResolver.DotNet, Lib.Harmony, etc.) → should be automatic if the NuGet URL is configured.<br/>
 - Build - Release both x86, x64.<br/>
 
 ### Usage
@@ -29,10 +29,9 @@ ConfuserEx2_String_Decryptor.exe (32-bit) on 32-bit samples and (64-bit) on 64-b
 
 ### Example
 **BEFORE:**<br/>
-
+![](Media/Before.png)<br/><br/>
 **AFTER:**<br/>
-
-<br/>
+![](Media/After.png)<br/>
 
 # ConfuserEx2 (1.6.0+-) Full Deobfuscation Guide
 As a lot of malware devs, commodity malwares, and TAs are often using this obfuscator (avoiding older versions) to protect .NET samples, I put together some simple tools and steps that should help with deobfuscation.<br/>
@@ -64,7 +63,7 @@ The [[Release]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/release
 5. Use the string decryption tools (**ConfuserEx2_String_Decryptor**) → 32-bit version on 32-bit samples and 64-bit version on 64-bit samples.
 6. Use the **ProxyCall-Remover** to get rid of proxy methods (should help to inline them).
 
-## GUIDE - Video
+### GUIDE - Video
 [[YouTube]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/releases)
 
 ### Something Not Working?
