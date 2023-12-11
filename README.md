@@ -1,7 +1,7 @@
 # ConfuserEx2_String_Decryptor
 ConfuserEx2 is the latest version from the Confuser family → An open-source, free protector for .NET applications.<br/>
-ConfuserEx2_String_Decryptor is a tool that deobfuscates constants protection, mainly focusing on **string** objects and **char[]** arrays.<br/>
-This tool was tested on the vanilla version of ConfuserEx2 (ConfuserEx 1.6.0+-), but it should also handle some simply customized versions.
+ConfuserEx2_String_Decryptor is a tool that deobfuscates constants protection, targeting **string** objects and **char[]** arrays.<br/>
+This tool was tested on the vanilla version of ConfuserEx2 (ConfuserEx 1.6.0+-), but it should also handle some customized versions.
 > [!WARNING]
 > **Run Only In VM** - The deobfuscation is based on a dynamic approach using managed hooking and reflection.<br/>
 
