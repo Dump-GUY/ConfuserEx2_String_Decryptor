@@ -63,7 +63,7 @@ The [[Release]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/release
 6. Use the **ProxyCall-Remover** to get rid of proxy methods (should help to inline them).
 
 ## GUIDE - Video
-[[YouTube]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/releases)
+**[[YouTube]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/releases)**
 
 ## Something Not Working?
 
