@@ -18,14 +18,14 @@ ConfuserEx2_String_Decryptor is a simple C# console application that uses:
 The [[Release]](https://github.com/Dump-GUY/ConfuserEx2_String_Decryptor/releases) binaries are compiled for both win-x86 and win-x64 using .NET Framework 4.7.2.<br/>
 
 ### Building on Windows
-- Install Visual Studio.<br/>
-- Open .sln and restore NuGet packages (AsmResolver.DotNet, Lib.Harmony, etc.) → should be automatic if the NuGet URL is configured.<br/>
-- Build - Release both x86, x64.<br/>
+- Install Visual Studio<br/>
+- Open .sln and restore NuGet packages (AsmResolver.DotNet, Lib.Harmony, etc.) → should be automatic if the NuGet URL is configured<br/>
+- Build - Release both x86, x64<br/>
 
 ## Usage
-Use on unpacked samples (Dumped - Passing Module Constructor)<br/>
-ConfuserEx2_String_Decryptor.exe (32-bit) on 32-bit samples and (64-bit) on 64-bit samples<br/>
-**Drag&Drop** or **ConfuserEx2_String_Decryptor.exe \<filepath\>**<br/>
+- Use on unpacked samples (Dumped - Passing Module Constructor)<br/>
+- ConfuserEx2_String_Decryptor.exe (32-bit) on 32-bit samples and (64-bit) on 64-bit samples<br/>
+- **Drag&Drop** or **ConfuserEx2_String_Decryptor.exe \<filepath\>**<br/>
 
 **BEFORE:**<br/>
 ![](Media/Before.png)<br/><br/>
